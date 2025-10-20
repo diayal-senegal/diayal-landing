@@ -32,7 +32,9 @@ const SimpleFooter = () => {
             borderRadius: '15px',
             display: 'inline-block',
             fontSize: '0.8rem',
-            fontWeight: 'bold'
+            fontWeight: 'bold',
+            color: 'black',
+            boxShadow: '0 2px 5px rgba(0, 0, 0, 0.2)'
           }}>
             100% MADE IN SÉNÉGAL
           </div>

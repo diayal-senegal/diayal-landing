@@ -70,9 +70,9 @@ const Newsletter = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Rejoignez le mouvement !
           </h2>
-          <p className="text-xl text-diayal-blue mb-2">
+          {/* <p className="text-xl text-diayal-black mb-2">
             Soyez les premiers sur la plateforme !
-          </p>
+          </p> */}
           <p className="text-white opacity-90">
             Inscrivez-vous pour être notifié du lancement officiel
           </p>
@@ -102,52 +102,52 @@ const Newsletter = () => {
             </div>
           </form>
           
-          <p className="text-diayal-blue text-sm mt-3">
+          {/* <p className="text-diayal-black text-sm mt-3">
             Pas de spam, promis ! Seulement les informations importantes.
-          </p>
+          </p> */}
         </div>
 
         {/* Avantages pionniers */}
         <div className="bg-white bg-opacity-10 backdrop-blur-md rounded-2xl p-8 border border-white border-opacity-20">
           <h3 className="text-2xl font-bold text-diayal-orange mb-6">
-            Avantages pionniers exclusifs
+            Avantages exclusifs
           </h3>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="glass-effect rounded-lg p-4">
               <div className="text-3xl mb-2">🆓</div>
               <h4 className="font-semibold text-white mb-2">Inscription gratuite</h4>
-              <p className="text-diayal-blue text-sm">Pour les 100 premiers artisans inscrits</p>
+              <p className="text-diayal-black text-sm">Pour les artisans </p>
             </div>
             
             <div className="glass-effect rounded-lg p-4">
               <div className="text-3xl mb-2">🎓</div>
               <h4 className="font-semibold text-white mb-2">Formation personnalisée</h4>
-              <p className="text-diayal-blue text-sm">Accompagnement pour digitaliser votre activité</p>
+              <p className="text-diayal-black text-sm">Accompagnement pour digitaliser votre activité</p>
             </div>
             
             <div className="glass-effect rounded-lg p-4">
               <div className="text-3xl mb-2">⭐</div>
               <h4 className="font-semibold text-white mb-2">Mise en avant de vos créations</h4>
-              <p className="text-diayal-blue text-sm">Vos créations s'ouvrent au monde</p>
+              <p className="text-diayal-black text-sm">Vos créations s'ouvrent au monde</p>
             </div>
             
             <div className="glass-effect rounded-lg p-4">
               <div className="text-3xl mb-2">🗣️</div>
               <h4 className="font-semibold text-white mb-2">Support dédié</h4>
-              <p className="text-diayal-blue text-sm">En français et wolof, 7j/7</p>
+              <p className="text-diayal-black text-sm">En français et wolof, 7j/7</p>
             </div>
           </div>
         </div>
 
         {/* Compteur d'inscrits */}
-        <div className="mt-8 text-center">
+        {/* <div className="mt-8 text-center">
           <div className="inline-block bg-white bg-opacity-20 rounded-full px-6 py-2">
             <span className="text-white font-semibold">
               🔥 Déjà {Math.floor(Math.random() * 50) + 33}+ artisans inscrits !
             </span>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Message de succès */}

@@ -32,7 +32,7 @@ function App() {
             marginBottom: '30px',
             lineHeight: '1.3'
           }}>
-            Si vous êtes artisan couturier, menuisier, cordonnier (maroquinier), bijoutier, sculpteur, artiste peintre, potier ou vannier
+            Si vous êtes artisan couturier, menuisier, cordonnier (maroquinier), bijoutier, sculpteur, artiste peintre, potier, vannier...
           </h2>
           
           <p style={{
@@ -41,7 +41,7 @@ function App() {
             color: '#FF9900',
             fontWeight: 'bold'
           }}>
-            Inscrivez-vous rapidement pour faire partie des premiers à vendre vos produits en ligne sur la première plateforme e-commerce moderne dédiée exclusivement aux artisans du Sénégal, avec votre propre boutique virtuelle et une interface de gestion des clients, de vos stocks et l'évolution de vos gains
+            Inscrivez-vous vite et soyez parmi les premiers artisans du Sénégal à vendre en ligne sur diayal.sn, la plateforme moderne qui vous offre votre propre boutique, la gestion de vos clients, stocks et gains !
           </p>
           
           <form onSubmit={async (e) => {
