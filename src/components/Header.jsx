@@ -30,8 +30,8 @@ const Header = () => {
             <div style={{ display: 'flex', gap: '10px' }}>
               <a href="https://www.facebook.com/profile.php?id=61582393357735&locale=fr_FR" style={{ color: 'blue', textDecoration: 'none', fontSize: '1.2rem' }}><FaFacebookF /></a>
               <a href="https://www.instagram.com/diayal_officiel/" style={{ color: 'red', textDecoration: 'none', fontSize: '1.2rem' }}><FaInstagram /></a>
-              <a href="https://twitter.com/diayal_sn" style={{ color: 'lightblue', textDecoration: 'none', fontSize: '1.2rem' }}><FaTwitter /></a>
-              <a href="www.tiktok.com/@diayal1" style={{ color: 'black', textDecoration: 'none', fontSize: '1.2rem' }}><FaTiktok /></a>
+              <a href="https://x.com/Diayal_officiel" style={{ color: 'lightblue', textDecoration: 'none', fontSize: '1.2rem' }}><FaTwitter /></a>
+              <a href="https://www.tiktok.com/@diayal1?lang=fr" style={{ color: 'black', textDecoration: 'none', fontSize: '1.2rem' }}><FaTiktok /></a>
             </div>
           </div>
         </div>

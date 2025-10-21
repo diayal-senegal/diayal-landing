@@ -68,10 +68,10 @@ const SimpleFooter = () => {
           marginBottom: '25px' 
         }}>
           {[
-            { Icon: FaFacebookF, url: 'https://www.facebook.com/diayal.sn' },
-            { Icon: FaInstagram, url: 'https://www.instagram.com/diayal.sn' },
-            { Icon: FaTwitter, url: 'https://twitter.com/diayal_sn' },
-            { Icon: FaTiktok, url: 'https://www.tiktok.com/' }
+            { Icon: FaFacebookF, url: 'https://www.facebook.com/profile.php?id=61582393357735&locale=fr_FR' },
+            { Icon: FaInstagram, url: 'https://www.instagram.com/diayal_officiel/' },
+            { Icon: FaTwitter, url: 'https://x.com/Diayal_officiel' },
+            { Icon: FaTiktok, url: 'https://www.tiktok.com/@diayal1?lang=fr' }
           ].map(({ Icon, url }, i) => (
             <a 
               key={i} 
