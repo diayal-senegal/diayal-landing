@@ -16,7 +16,7 @@ const Header = () => {
               <MdEmail />
               <span>info@diayal.sn</span><div></div>
               <MdPhone />
-              <span>+(221) 77 1852967</span>
+              <span>+(221) 773385468</span>
             </div>
              
           <div style={{ fontSize: '2rem', fontWeight: 'bold', color: '#FF9900' }}>

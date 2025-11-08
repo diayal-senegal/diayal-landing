@@ -48,7 +48,7 @@ const Footer = () => {
             <div style={{ color: '#ccc', fontSize: '0.9rem' }}>
               <p style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>🏛️ Dakar, Sénégal</p>
               <p style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}><MdEmail /> contact@diayal.sn</p>
-              <p style={{ display: 'flex', alignItems: 'center', gap: '8px' }}><MdPhone /> +(221) 77 1852967</p>
+              <p style={{ display: 'flex', alignItems: 'center', gap: '8px' }}><MdPhone /> +(221) 773385468</p>
             </div>
           </div>
           

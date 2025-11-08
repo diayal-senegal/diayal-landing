@@ -20,28 +20,32 @@ function App() {
 
       {/* 2. Section Inscription Vendeurs */}
       <section style={{
-        background: 'linear-gradient(135deg, #232F3E 0%, #7eabe2 100%)',
+        backgroundImage: `linear-gradient(rgba(35, 47, 62, 0.8), rgba(126, 171, 226, 0.8)), url('/src/assets/nav-bg.png')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
         color: 'white',
         padding: '80px 20px',
-        textAlign: 'center'
+        textAlign: 'center',
+        minHeight: '100vh'
       }}>
         <div style={{ maxWidth: '700px', margin: '0 auto' }}>
           <h2 style={{
-            fontSize: '2.5rem',
+            fontSize: '2.2rem',
             fontWeight: 'bold',
             marginBottom: '30px',
             lineHeight: '1.3'
           }}>
-            Si vous êtes artisan couturier, menuisier, cordonnier (maroquinier), bijoutier, sculpteur, artiste peintre, potier, vannier...
+            Tu es artisan, créateur ou artiste ? Peu importe ton savoir-faire, ce qui compte, c’est ta passion.
           </h2>
           
           <p style={{
             fontSize: '1.3rem',
             marginBottom: '40px',
-            color: '#FF9900',
+            // color: '#FF9900',
             fontWeight: 'bold'
           }}>
-            Inscrivez-vous vite et soyez parmi les premiers artisans du Sénégal à vendre en ligne sur diayal.sn, la plateforme moderne qui vous offre votre propre boutique, la gestion de vos clients, stocks et gains !
+            Sois l'un des premiers artisans sénégalais à vendre en ligne en t'inscrivant sur diayal.sn, la plateforme qui te permet de gérer la gestion de ta propre boutique!
           </p>
           
           <form onSubmit={async (e) => {

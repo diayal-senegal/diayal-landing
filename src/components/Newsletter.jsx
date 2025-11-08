@@ -62,7 +62,13 @@ const Newsletter = () => {
   };
 
   return (
-    <section className="gradient-bg py-20">
+    <section 
+      className="py-20 bg-cover bg-center bg-no-repeat relative"
+      style={{
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/src/assets/nav-bg.png')`,
+        minHeight: '100vh'
+      }}
+    >
       <div className="max-w-4xl mx-auto px-4 text-center">
         
         {/* Titre principal */}
