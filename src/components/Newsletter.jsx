@@ -65,7 +65,7 @@ const Newsletter = () => {
     <section 
       className="py-20 bg-cover bg-center bg-no-repeat relative"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/src/assets/nav-bg.png')`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/nav-bg.png')`,
         minHeight: '100vh'
       }}
     >

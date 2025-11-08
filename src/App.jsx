@@ -20,7 +20,7 @@ function App() {
 
       {/* 2. Section Inscription Vendeurs */}
       <section style={{
-        backgroundImage: `linear-gradient(rgba(35, 47, 62, 0.8), rgba(126, 171, 226, 0.8)), url('/src/assets/nav-bg.png')`,
+        backgroundImage: `linear-gradient(rgba(35, 47, 62, 0.8), rgba(126, 171, 226, 0.8)), url('/images/nav-bg.png')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
