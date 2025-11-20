@@ -56,7 +56,7 @@ const SimpleFooter = () => {
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
             <MdPhone />
-            <span>+(221) 77 1852967</span>
+            <span>+(221) 773385468</span>
           </div>
         </div>
 
@@ -122,7 +122,7 @@ const SimpleFooter = () => {
             color: '#7eabe2', 
             fontWeight: 'bold' 
           }}>
-            ViSion
+           
           </p>
         </div>
       </div>
