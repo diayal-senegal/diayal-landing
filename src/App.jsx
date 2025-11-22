@@ -45,7 +45,7 @@ function App() {
             // color: '#FF9900',
             fontWeight: 'bold'
           }}>
-            Sois l'un des premiers artisans sénégalais à vendre en ligne en t'inscrivant sur diayal.sn, la plateforme qui te permet de gérer la gestion de ta propre boutique!
+            Sois l'un des premiers artisans sénégalais à vendre en ligne en t'inscrivant sur diayal.sn, la plateforme qui te permet de gérer ta propre boutique!
           </p>
           
           <form onSubmit={async (e) => {
