@@ -1,5 +1,5 @@
 const API_BASE_URL = process.env.NODE_ENV === 'production' 
-  ? 'https://diayal-backend.onrender.com/api' 
+  ? 'https://api.diayal.sn/api' 
   : 'http://localhost:5000/api';
 
 export const submitNewsletter = async (email) => {
