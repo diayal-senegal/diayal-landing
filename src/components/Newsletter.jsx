@@ -106,25 +106,6 @@ const Newsletter = () => {
                 {isLoading ? '...' : 'REJOINDRE'}
               </button>
             </div>
-
-            {/* Version desktop - Horizontal */}
-            <div className="hidden sm:flex gap-3">
-              <input
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="Taper votre email"
-                className="flex-1 px-6 py-4 text-gray-700 focus:outline-none text-lg rounded-lg shadow-xl"
-                disabled={isLoading}
-              />
-              <button
-                type="submit"
-                disabled={isLoading}
-                className="bg-diayal-orange hover:bg-orange-600 px-8 py-4 text-white font-bold text-lg transition-colors disabled:opacity-50 rounded-lg shadow-xl whitespace-nowrap"
-              >
-                {isLoading ? '...' : 'REJOINDRE'}
-              </button>
-            </div>
           </form>
           
           {/* <p className="text-diayal-black text-sm mt-3">
