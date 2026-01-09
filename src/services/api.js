@@ -1,6 +1,7 @@
-const API_BASE_URL = process.env.NODE_ENV === 'production' 
-  ? 'https://api.diayal.sn/api' 
-  : 'http://localhost:5000/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 
+  (process.env.NODE_ENV === 'production' 
+    ? 'https://plateforme.diayal.sn/api' 
+    : 'http://localhost:5000/api');
 
 export const submitNewsletter = async (email) => {
   try {
