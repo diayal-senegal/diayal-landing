@@ -1,6 +1,6 @@
 const API_BASE_URL = import.meta.env.VITE_API_URL || 
-  (process.env.NODE_ENV === 'production' 
-    ? 'https://plateforme.diayal.sn/api' 
+  (import.meta.env.MODE === 'production' 
+    ? 'https://inscription.diayal.sn/api' 
     : 'http://localhost:5000/api');
 
 export const submitNewsletter = async (email) => {

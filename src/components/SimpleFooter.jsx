@@ -115,7 +115,7 @@ const SimpleFooter = () => {
           color: '#ccc'
         }}>
           <p style={{ marginBottom: '5px' }}>
-            © 2025 Diayal – Tous droits réservés
+            © 2026 Diayal – Tous droits réservés
           </p>
           <p style={{ 
             fontSize: '1.1rem', 
